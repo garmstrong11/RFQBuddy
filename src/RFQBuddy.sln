@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RFQBuddy.Acquisition.Contracts", "RFQBuddy.Acquisition.Contracts\RFQBuddy.Acquisition.Contracts.csproj", "{E2A53587-8751-4279-895F-EDE27BEE78DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RFQBuddy.Acquisition", "RFQBuddy.Acquisition\RFQBuddy.Acquisition.csproj", "{132BD9B3-37FA-40AF-9713-06D577F21226}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{AC206B2C-0E7B-4E94-9B2C-06D71C817C4D}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumTest0", "..\..\..\Demos\SeleniumTest0\SeleniumTest0\SeleniumTest0.csproj", "{849F7655-DA87-492A-AFEE-FCB1A62BF395}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2A53587-8751-4279-895F-EDE27BEE78DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2A53587-8751-4279-895F-EDE27BEE78DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2A53587-8751-4279-895F-EDE27BEE78DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2A53587-8751-4279-895F-EDE27BEE78DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{132BD9B3-37FA-40AF-9713-06D577F21226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{132BD9B3-37FA-40AF-9713-06D577F21226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{132BD9B3-37FA-40AF-9713-06D577F21226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{132BD9B3-37FA-40AF-9713-06D577F21226}.Release|Any CPU.Build.0 = Release|Any CPU
+		{849F7655-DA87-492A-AFEE-FCB1A62BF395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{849F7655-DA87-492A-AFEE-FCB1A62BF395}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{849F7655-DA87-492A-AFEE-FCB1A62BF395}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{849F7655-DA87-492A-AFEE-FCB1A62BF395}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
